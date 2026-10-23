@@ -69,7 +69,7 @@ instance/
 .scrapy
 
 # Sphinx documentation
-docs/_build/
+QQ/_build/
 
 # PyBuilder
 .pybuilder/
@@ -104,7 +104,7 @@ ipython_config.py
 #   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
 #   This is especially recommended for binary packages to ensure reproducibility, and is more
 #   commonly ignored for libraries.
-#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#   https://python-poetry.org/QQ/basic-usage/#commit-your-poetrylock-file-to-version-control
 #poetry.lock
 #poetry.toml
 
@@ -205,3 +205,35 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ==============================================================================
+# ML / Deep Learning & Dataset specific ignore rules
+# ==============================================================================
+/dataset/
+/data
+*.pdf
+/results/
+/kaggle_results/
+kaggle_results*/
+/kaggle_kernel/
+/experiments/
+*.pth
+*.pt
+*.onnx
+*.log
+.DS_Store
+
+# Personal notes and workspace
+QQ/
+
+# Antigravity / AI Agent configs (temporarily ignored per user request)
+.agents/
+GEMINI.md
+*.pth
+*.zip
+__pycache__
+.venv
+dataset/
+data/
+kaggle_push/
+kaggle_push_kernel/
